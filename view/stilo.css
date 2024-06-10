@@ -1,0 +1,54 @@
+body {
+  font: normal medium/1.4 sans-serif;
+}
+table {
+  font-family: 'Arial';
+  font-size: 12px;
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+  text-align: center; 
+}
+td.headcol {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+  text-align: left;
+  position: sticky;
+  left: 0;
+  box-shadow: 1px 1px 1px 1px black;
+  background: white;
+  height: 10px;
+}
+
+th {
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  background: white;
+}
+
+tbody tr:hover {
+    background-color: #ffff99;
+}
+
+/*
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+*/
+div {
+  width: 1250px;
+  overflow-x: scroll;
+  margin-left: 20em;
+  overflow-y: visible;
+  padding: 0;
+}
+

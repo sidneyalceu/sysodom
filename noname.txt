@@ -1,0 +1,11 @@
+# EAPS domain configuration :
+----------------------------------------------------------------------------------
+Domain         State           Mo  En  Pri    Sec    Control-Vlan VID   Count Prio
+----------------------------------------------------------------------------------
+CARAJAS-EAPS   Links-Up        T   Y    32     29    CARAJAS-EAPS-CONTROLE (999 ) 0     N   
+Anel-TJBD-NOVO Idle            T   N    32     31    Cont-Anel-TJBD-NOVO (91  ) 0     N   
+ANEL-ELETROBRAS Links-Up        T   Y    32     31    CONTROLE-ANEL-ELETROBRAS (20  ) 11    N   
+ANEL01-METRO-MCO Links-Up        T   Y    31     32    controle_eaps_1 (10  ) 104   N   
+NOVO-RING-ALOOSEDE Links-Up        T   Y    31     32    Cont-NOVO-RING-ALOOSEDE (8   ) 7     N   
+NOVO-ANEL01-METRO-MCO Links-Up        T   Y    31     32    Cont-NOVO-ANEL01-METRO-MCO (9   ) 3     N   
+----------------------------------------------------------------------------------

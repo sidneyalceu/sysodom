@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","result":[{"hostid":"10084","host":"Zabbix server","interfaces":[{"interfaceid":"1","ip":"127.0.0.1"}]},{"hostid":"10447","host":"eXOS1","interfaces":[{"interfaceid":"6","ip":"10.10.228.138"}]}],"id":2}
